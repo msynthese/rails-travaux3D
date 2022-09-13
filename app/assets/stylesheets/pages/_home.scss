@@ -1,1 +1,13 @@
 // Specific CSS for your home-page
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+main {
+  position: absolute;
+  z-index: 1;
+}

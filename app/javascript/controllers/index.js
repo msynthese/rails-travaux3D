@@ -6,3 +6,9 @@ import { application } from "./application"
 
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import ListCategoryController from "./list_category_controller"
+application.register("list-category", ListCategoryController)
+
+import ThreejsController from "./threejs_controller"
+application.register("threejs", ThreejsController)
